@@ -1,0 +1,11 @@
+number = input ("what is the number? ")
+
+number = float (number)
+
+itration = 1
+
+while (number >= 9) :
+    itration = itration + 1
+    import math
+    number = math.floor (number/10)
+print ("number of digits is/are: " , itration)
